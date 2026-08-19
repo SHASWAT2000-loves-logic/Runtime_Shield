@@ -14,7 +14,7 @@ The previous fixed `automaton-liveness-v2` experiment showed that the runtime sh
 
 This branch asks:
 
-> If the shield reveals one exact currently live progress action in the rejection reprompt, will the VLM follow that correction and recover from repeated or unsafe proposals?
+If the shield reveals one exact currently live progress action in the rejection reprompt, will the VLM follow that correction and recover from repeated or unsafe proposals?
 
 The experiment intentionally changes **only the rejection-reprompt behavior** so that this recovery mechanism can be tested while preserving the rest of the setup.
 
